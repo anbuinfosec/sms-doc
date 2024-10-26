@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: application/json');
 $apiKey = "YOUR_API_KEY_HERE";
 try {
     if (!isset($_GET['number']) || !isset($_GET['message'])) {
